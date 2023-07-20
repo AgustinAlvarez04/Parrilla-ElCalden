@@ -1,3 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap");
+.nav-boostrap {
+  background-color: black;
+}
+
+.nav-boostrap li a {
+  color: white;
+}
+
+.nav-boostrap li a:hover {
+  color: rgb(255, 201, 24);
+}
+
+* {
+  font-family: "Seaweed Script", cursive;
+}
+
+body {
+  background-image: url(../img/prueba1.jpg);
+  background-repeat: repeat;
+  background-position: relative;
+  background-size: initial;
+}
+
+h1, h2 {
+  color: white;
+}
+
+.titulos-banners {
+  text-align: center;
+}
+
+.banners {
+  border-radius: 6%;
+  width: 50%;
+}
+
+footer {
+  padding: 20px 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+footer div a {
+  color: white;
+}
+
+footer div a:hover {
+  width: 20px;
+  color: rgb(255, 201, 24);
+}
+
+.banner-calden {
+  margin: 10px;
+  width: auto;
+  height: 50%;
+}
 
 /*# sourceMappingURL=main.css.map */
