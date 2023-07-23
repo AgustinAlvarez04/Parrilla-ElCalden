@@ -1,0 +1,1 @@
+Proyecto a 2 meses. Dia de inicio 19 de julio del 2023

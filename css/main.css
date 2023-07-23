@@ -31,6 +31,9 @@ h1, h2 {
 }
 
 .banners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 6%;
   width: 50%;
 }
@@ -51,12 +54,6 @@ footer div a {
 footer div a:hover {
   width: 20px;
   color: rgb(255, 201, 24);
-}
-
-.banner-calden {
-  margin: 10px;
-  width: auto;
-  height: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
