@@ -14,17 +14,34 @@ h1, h2{
 }
 
 
-.titulos-banners{
-    text-align: center;
-}
-
-.banners{
+.banner-calden{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.banners-centro{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 6%;
-    width: 50%;
+    text-align: center;
 }
+    .banners{
+        border-radius: 3%;
+    }
+    #pastas{
+        width: 100%;
+    }
+
+@media (width < 992px){
+    nav div ul li a{
+        display: none;
+    }
+}
+
 
 footer{
     padding: 20px 30px;
