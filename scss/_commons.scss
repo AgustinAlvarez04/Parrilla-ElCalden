@@ -32,16 +32,12 @@ h1, h2{
     .banners{
         border-radius: 3%;
     }
-    #pastas{
-        width: 100%;
-    }
-
-@media (width < 992px){
-    nav div ul li a{
-        display: none;
+@media (width < 576px){
+    img{
+        width: 75%;
+        height: 75%;
     }
 }
-
 
 footer{
     padding: 20px 30px;
