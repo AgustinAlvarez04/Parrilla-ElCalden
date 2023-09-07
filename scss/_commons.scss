@@ -1,4 +1,7 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Seaweed Script', cursive;
 }
 
@@ -13,7 +16,67 @@ h1, h2{
     color: $texto-blanco;
 }
 
-
+.bg{
+    background-image: url(../img/calden-1.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+}
+    .titulo{
+        margin-top: 230px;
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+    }
+.bg-alPlato{
+    background-image: url(../img/banners/milas.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+}
+.bg-asado{
+    background-image: url(../img/banners/asado.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+    }
+.bg-bebidas{
+    background-image: url(../img/banners/bebidas.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+}
+.bg-menues_diarios{
+    background-image: url(../img/fondos/fondo-carne.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+}
+.bg-pastas{
+    background-image: url(../img/banners/pastas.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+}
+.bg-postres{
+    background-image: url(../img/banners/postres.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+}
+.bg-vinos{
+    background-image: url(../img/banners/vino3.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+}
+.titulo-cartas{
+    background-color: #00000093;
+    margin-top: 100px;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    }
 .banner-calden{
     display: flex;
     flex-direction: row;
@@ -67,7 +130,18 @@ h1, h2{
         }
     }
 
-
+.alPlato-comidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #00000093;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    line-height:40px;
+}
 footer{
     padding: 20px 30px;
     margin-top: 50px;
@@ -85,3 +159,15 @@ footer{
         color: rgb(255, 201, 24);
         
     }
+
+
+
+
+
+
+
+
+
+
+
+
