@@ -148,7 +148,8 @@ h1, h2 {
     height: 75%;
   }
   iframe {
-    height: 70%;
+    height: auto;
+    width: 80%;
   }
 }
 .btn-wsp {
