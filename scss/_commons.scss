@@ -4,18 +4,15 @@
     box-sizing: border-box;
     font-family: 'Seaweed Script', cursive;
 }
-
 body{
     background-image: url(../img/prueba1.jpg);
     background-repeat:repeat;
     background-position: relative;
     background-size: initial;
 }
-
 h1, h2{
     color: $texto-blanco;
 }
-
 .bg{
     background-image: url(../img/calden-1.webp);
     background-size: cover;
@@ -40,6 +37,12 @@ h1, h2{
     background-size: cover;
     height: 300px;
     padding: .1px;
+}
+.bg-guarniciones{
+    background-image: url(../img/banners/guarniciones.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: 1px;
 }
 .bg-bebidas{
     background-image: url(../img/banners/bebidas.jpg);
@@ -71,6 +74,12 @@ h1, h2{
     height: 300px;
     padding: .1px;
 }
+.bg-salsas{
+    background-image: url(../img/banners/salsas.jpg);
+    background-size: cover;
+    height: 300px;
+    padding: .1px;
+}
 .bg-postres{
     background-image: url(../img/banners/postres.jpg);
     background-size: cover;
@@ -96,7 +105,6 @@ h1, h2{
     justify-content: center;
     text-align: center;
     padding-top: 30px;
-    
 }
 .banners-centro{
     display: flex;
@@ -118,12 +126,6 @@ h1, h2{
         width: 80%;
     }
 }
-
-.txt{
-    font-size: 1.5rem;
-    color: white;
-}
-
 .btn-wsp{
     position:fixed;
     width:55px;
@@ -151,7 +153,9 @@ h1, h2{
             line-height: 66px;
         }
     }
-
+.c-red{
+    color: red;
+}
 footer{
     padding: 20px 30px;
     margin-top: 50px;
@@ -162,6 +166,8 @@ footer{
     
 }
     footer div a{
+        text-decoration: none;
+        font-size: 1.5rem;
         color: white;
     }
     footer div a:hover{
@@ -169,7 +175,6 @@ footer{
         color: rgb(255, 201, 24);
         
     }
-
 
 
 
